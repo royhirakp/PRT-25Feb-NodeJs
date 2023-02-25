@@ -3,7 +3,6 @@ const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
 
  const RecipiSchma = new Schema({
-    
     title: String,
     author: String,
     image: {
